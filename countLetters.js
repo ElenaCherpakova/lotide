@@ -8,7 +8,6 @@ const eqArrays = function(arr1, arr2) {
   }
   return true;
 };
-
 const countLetters = function(string) {
   const counts = {};
   for (const letter of string) {

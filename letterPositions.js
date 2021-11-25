@@ -38,4 +38,3 @@ const letterPositions = function(sentence) {
 console.log(eqArrays(letterPositions("hello").h, [0]));
 console.log(eqArrays(letterPositions("hello").e, [1]));
 console.log(eqArrays(letterPositions("hello").l, [2, 3]));
-
