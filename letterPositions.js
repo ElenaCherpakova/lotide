@@ -35,7 +35,7 @@ const letterPositions = function(sentence) {
 
 
 
-console.log(assertEqual(letterPositions("hello").h, [0]));
-console.log(assertEqual(letterPositions("hello").e, [1]));
-console.log(assertEqual(letterPositions("hello").l, [2, 3]));
+console.log(eqArrays(letterPositions("hello").h, [0]));
+console.log(eqArrays(letterPositions("hello").e, [1]));
+console.log(eqArrays(letterPositions("hello").l, [2, 3]));
 
