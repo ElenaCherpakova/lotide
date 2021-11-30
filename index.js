@@ -1,5 +1,5 @@
-const head   = require('./head');
-const tail   = require('./tail');
+const head = require('./head');
+const tail  = require('./tail');
 const middle = require('./middle');
 const assertArraysEqual = require('./assertArraysEqual');
 const assertEqual = require('./assertEqual');
@@ -12,7 +12,7 @@ const findKey = require('./findKey');
 const findKeyByValue = require('./findKeyByValue');
 const letterPositions = require('./letterPositions');
 const map = require('./map');
-const pigLatin = require('./pig-latin');
+const pigLatin = require('./pigLatin');
 const reverse = require('./reverse');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
